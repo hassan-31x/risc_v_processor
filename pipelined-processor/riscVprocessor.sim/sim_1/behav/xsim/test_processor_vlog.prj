@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../riscVprocessor.srcs/sources_1/new/RISCV_processor.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/adder.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/alu64Bit.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/aluControl.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/controlUnit.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/dataMemory.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/eXmeM.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/forwardingUnit.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/iDeX.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/iFiD.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/immGen.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/insParser.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/instructionMemory.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/meMwB.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/multiplexer.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/programCounter.v" \
+"../../../../riscVprocessor.srcs/sources_1/new/regFile.v" \
+"../../../../riscVprocessor.srcs/sim_1/new/test_processor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

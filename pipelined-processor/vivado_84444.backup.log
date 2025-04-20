@@ -1,0 +1,1701 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 21 12:54:55 2025
+# Process ID: 84444
+# Current directory: C:/Users/mj08696/Desktop/riscVprocessorPipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent84044 C:\Users\mj08696\Desktop\riscVprocessorPipeline\riscVprocessor.xpr
+# Log file: C:/Users/mj08696/Desktop/riscVprocessorPipeline/vivado.log
+# Journal file: C:/Users/mj08696/Desktop/riscVprocessorPipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.xpr
+INFO: [Project 1-313] Project file moved from 'D:/vivado/RISCVprocessor/riscVprocessorPipeline' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim/xsim.dir/test_processor_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 21 12:59:37 2025...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1011.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3705] select index 127 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:42]
+WARNING: [VRFC 10-3705] select index 131 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:43]
+WARNING: [VRFC 10-3705] select index 135 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:44]
+WARNING: [VRFC 10-3705] select index 139 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:45]
+WARNING: [VRFC 10-3705] select index 143 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:46]
+WARNING: [VRFC 10-3705] select index 147 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:47]
+WARNING: [VRFC 10-3705] select index 151 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:48]
+WARNING: [VRFC 10-3705] select index 155 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:49]
+WARNING: [VRFC 10-3705] select index 159 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:50]
+WARNING: [VRFC 10-3705] select index 163 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:51]
+WARNING: [VRFC 10-3705] select index 167 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:52]
+WARNING: [VRFC 10-3705] select index 171 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:53]
+WARNING: [VRFC 10-3705] select index 175 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:54]
+WARNING: [VRFC 10-3705] select index 179 into 'memory' is out of bounds [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v:55]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1011.844 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 1 for port 'w0' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v:62]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w0' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:112]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w1' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:113]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w2' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:114]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w3' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:115]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w4' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:116]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w5' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:117]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w6' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1011.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 1 for port 'w0' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v:62]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w0' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:112]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w1' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:113]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w2' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:114]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w3' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:115]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w4' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:116]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w5' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:117]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w6' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 1 for port 'w0' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v:62]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w0' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:112]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w1' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:113]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w2' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:114]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w3' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:115]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w4' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:116]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w5' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:117]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w6' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1011.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 1 for port 'w0' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v:62]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w0' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:112]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w1' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:113]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w2' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:114]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w3' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:115]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w4' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:116]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w5' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:117]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 64 for port 'w6' [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1011.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1011.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2458] undeclared symbol reg4, assumed default net type wire [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:59]
+INFO: [VRFC 10-2458] undeclared symbol reg5, assumed default net type wire [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:59]
+INFO: [VRFC 10-2458] undeclared symbol reg6, assumed default net type wire [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:59]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'reg6' on this module [C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v:59]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1429.035 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1429.035 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1429.035 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 725 ns : File "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" Line 98
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1429.035 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instFlush.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instFlush
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.instFlush
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 725 ns : File "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" Line 98
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1429.035 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instFlush.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instFlush
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.instFlush
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 725 ns : File "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" Line 98
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1429.035 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/RISCV_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISCV_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/alu64Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aluControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/eXmeM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eXmeM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/forwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iDeX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iDeX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/iFiD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iFiD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/immGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/insParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/meMwB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module meMwB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer3x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+"xelab -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto a2041565474441eeba3124a7475bb993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_behav xil_defaultlib.test_processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.iFiD
+Compiling module xil_defaultlib.insParser
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.iDeX
+Compiling module xil_defaultlib.forwardingUnit
+Compiling module xil_defaultlib.multiplexer3x1
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.alu64Bit
+Compiling module xil_defaultlib.eXmeM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.meMwB
+Compiling module xil_defaultlib.RISCV_processor
+Compiling module xil_defaultlib.test_processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_behav -key {Behavioral:sim_1:Functional:test_processor} -tclbatch {test_processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source test_processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 725 ns : File "C:/Users/mj08696/Desktop/riscVprocessorPipeline/riscVprocessor.srcs/sim_1/new/test_processor.v" Line 98
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1429.035 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 21 15:02:10 2025...

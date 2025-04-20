@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 21 15:45:10 2025
+# Process ID: 5784
+# Current directory: C:/Users/mg08993/Desktop/TASK 2 AND 3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4976 C:\Users\mg08993\Desktop\TASK 2 AND 3\riscVprocessor.xpr
+# Log file: C:/Users/mg08993/Desktop/TASK 2 AND 3/vivado.log
+# Journal file: C:/Users/mg08993/Desktop/TASK 2 AND 3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source test_processor.tcl
+close_sim

@@ -1,0 +1,25 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.sim/sim_1/behav/xsim/glbl.v,1745231067,verilog,,,,glbl,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sim_1/new/test_processor.v,1745231067,verilog,,,,test_processor,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/RISCV_processor.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/adder.v,,RISCV_processor,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/adder.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/alu64Bit.v,,adder,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/alu64Bit.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/aluControl.v,,alu64Bit,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/aluControl.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/controlUnit.v,,aluControl,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/controlUnit.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/dataMemory.v,,controlUnit,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/dataMemory.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/eXmeM.v,,dataMemory,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/eXmeM.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/forwardingUnit.v,,eXmeM,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/forwardingUnit.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v,,forwardingUnit,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/hazardDetectionUnit.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/iDeX.v,,hazardDetectionUnit,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/iDeX.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/iFiD.v,,iDeX,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/iFiD.v,1745231067,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/immGen.v,,iFiD,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/immGen.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/insParser.v,,immGen,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/insParser.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/instructionMemory.v,,insParser,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/instructionMemory.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/meMwB.v,,instructionMemory,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/meMwB.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/multiplexer.v,,meMwB,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/multiplexer.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v,,multiplexer,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/multiplexer3x1.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/programCounter.v,,multiplexer3x1,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/programCounter.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/regFile.v,,programCounter,,,,,,,,
+C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sources_1/new/regFile.v,1745231068,verilog,,C:/Users/mg08993/Desktop/TASK 2 AND 3/riscVprocessor.srcs/sim_1/new/test_processor.v,,regFile,,,,,,,,
